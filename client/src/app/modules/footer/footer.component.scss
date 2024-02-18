@@ -1,0 +1,37 @@
+@import '../../../styles.scss';
+
+.footer {
+    width: 100vw;
+    height: 49.5px;
+    position: fixed;
+    bottom: 0px;
+    border: 1px solid rgb(30, 45, 61);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 23px;
+    padding-right: 23px;
+    background-color: $color-default;
+}
+
+.footer-info {
+    color: rgb(96, 123, 150);
+    height: 100%;
+    display: flex;
+    align-items: baseline;
+}
+
+.footer-info p{
+   margin-right: 10px;
+}
+
+.footer-link {
+    height: 100%;
+    width: 52px;
+    border-left: 1px solid rgb(30, 45, 61);
+    border-right: 1px solid rgb(30, 45, 61);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+

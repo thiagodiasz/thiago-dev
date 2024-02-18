@@ -1,0 +1,11 @@
+@for $i from 1 through 50 {
+  .fs-#{$i} {
+    font-size: #{$i}px;
+  }
+}
+
+@for $i from 1 through 50 {
+  .fw-#{$i} {
+    font-weight: #{$i}00;
+  }
+}

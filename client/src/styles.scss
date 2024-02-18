@@ -1,1 +1,53 @@
-/* You can add global styles to this file, and also import other style files */
+//IMPORT 
+
+
+// VARIÁVEIS
+@import "./app/theme/_variables";
+
+// ESPAÇOS
+@import "./app/theme/_spacing";
+
+// TAMANHO FONTE
+@import "./app/theme/_fontStyle";
+
+
+@font-face {
+    font-family: 'FiraCode';
+    src: url('../src/assets/fonts/FiraCode-Regular.woff2') format('woff2'),
+        url('../src/assets/fonts/FiraCode-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+    position: relative;
+    margin: 0;
+    font-family: 'FiraCode', sans-serif;
+}
+
+
+section {
+    padding: 100px 50px 180px 40px;
+}
+
+p.commented {
+    color: rgb(96, 123, 150);
+    font-size: 16px;
+    font-weight: 450;
+    margin-bottom: 9px;
+}
+
+.text-lilac{
+    color: $lilac;
+}
+.text-green{
+    color: $green;
+}
+
+.text-orange{
+    color: $orange;
+}

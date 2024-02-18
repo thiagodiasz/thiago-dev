@@ -1,0 +1,11 @@
+<header>
+    <nav>
+        <ul>
+            <li [ngClass]="{'active': isActive('/')}"><a routerLink="/home" readonly>thiago-dias</a></li>
+            <li [ngClass]="{'active': isActive('/home')}"><a routerLink="/home" readonly>_home</a></li>
+            <li [ngClass]="{'active': isActive('/about')}"><a routerLink="/about" readonly>_sobre</a></li>
+            <li [ngClass]="{'active': isActive('/projects')}"><a routerLink="/projects" readonly>_projetos</a></li>
+            <li [ngClass]="{'active': isActive('/contact')}"><a routerLink="/contact" readonly>_contato</a></li>
+        </ul>
+    </nav>
+</header>

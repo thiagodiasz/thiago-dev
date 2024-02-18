@@ -1,0 +1,24 @@
+@import '../../../styles.scss';
+
+#home{
+    background-color: $color-default;
+}
+
+#home h3{
+    color: $white;
+    font-size: 18px;
+    font-weight: 450;
+}
+
+#home h1{
+    color: $white;
+    font-size: 62px;
+    font-weight: 450;
+}
+
+#home h2{
+    color: rgb(77, 91, 206);
+    font-size: 32px;
+    font-weight: 450;
+}
+
